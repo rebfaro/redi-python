@@ -1,8 +1,7 @@
 # This is a simple Python script that demonstrates basic string operations and user input that 
 # I learned in the first lesson of the Python course I'm taking at ReDi School of Digital Integration.
 
-
-# This is a simple string variable that contains a greeting message.
+# This is a string variable that contains a greeting message.
 greetings = "Hello, World!"
 
 # We use the print function to display the arguments passed to it.
