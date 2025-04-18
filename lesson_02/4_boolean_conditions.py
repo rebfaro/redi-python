@@ -1,6 +1,6 @@
 # At lesson 2, we also learned about booleans.
 # Booleans are a type of data that is used to know if an expression is True or False.
-# You can used it wirh comparison operator.
+# You can used it with comparison operator.
 
 print(5 == 6)
 print(3 == 3)
