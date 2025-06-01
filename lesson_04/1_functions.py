@@ -66,7 +66,6 @@ def display_movies():
     for movies in available_movies:
         print(movies)
 
-#display_movies()
 
 def book_tickets(): 
     user_movie = input("Enter the movie name you would like to watch: ")
@@ -78,7 +77,6 @@ def book_tickets():
         print(f"Booking {tickets_number} Regular tickect(s) for {user_movie}")
     return (seat_type, tickets_number)
 
-#seat_type, tickets_number = book_tickets()
 
 def total_cost(seat_type, tickets_number):
     regular_ticket = int(12)
@@ -92,7 +90,6 @@ def total_cost(seat_type, tickets_number):
         print(f"Total cost: ${cost} ({tickets_number} x ${regular_ticket} Regular Seats)")
     return (tickets_number, seat_type)
 
-#total_cost(seat_type=seat_type, tickets_number=tickets_number)
 
 def main():
     display_movies()
